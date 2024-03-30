@@ -1,0 +1,81 @@
+:root {
+
+    /* --primary-color: #575757;
+    --secondary-color: #fff; */
+    --primary-color: #ffffff;
+    --secondary-color: #ffffff;
+    --tertiary-color: #eaedef;
+    --quaternary-color: #08c;
+    
+}
+
+.dark-theme {
+    --primary-color: #334256;
+    --secondary-color: #1a212e;
+    --tertiary-color: #1a212e;
+    --quaternary-color: #ffffff;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.header {
+    background-color: var(--tertiary-color);
+}
+
+.header-contact {
+    color: var(--quaternary-color);
+    background-color: var(--primary-color);
+    
+}
+
+.side-menu-container h2 {
+    color: #465157;
+    
+    background-color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    margin: 0
+}
+
+.menu.menu-vertical>li:hover,
+.menu.menu-vertical>li.show,
+.menu.menu-vertical>li.active {
+    background-color: #08c
+}
+
+.dropdown-cart-action .btn {
+    
+    color: #fff;
+    border-color: #08c;
+    background-color: #08c;
+    border-radius: .2rem;
+    min-width: 110px;
+    padding: 1.25rem 1rem
+}
+
+.dropdown-cart-action .btn:hover,
+.dropdown-cart-action .btn:focus {
+    color: #fff;
+    border-color: #222;
+    background-color: #222
+}
+
+
+.footer {
+    background-color: var(--tertiary-color);
+}
+
+/* @media (prefers-color-scheme: dark) {
+    .page-wrapper {
+        background-color: #575757;
+    }
+}
+ */
+#themeImg {
+    /* Estilos comunes para la imagen */
+    width: 30px;
+    /* Por ejemplo, establece el ancho de la imagen */
+    cursor: pointer;
+    /* Cambia el cursor al pasar sobre la imagen */
+}
